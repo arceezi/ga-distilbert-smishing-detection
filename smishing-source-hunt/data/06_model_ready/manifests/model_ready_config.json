@@ -1,0 +1,88 @@
+{
+  "input_dataset_path": "data/final_dataset_build/final/dataset_v3_public_manual_research_synthetic_ham_balanced.csv",
+  "split_ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "seeds": {
+    "global_split_seed": 42,
+    "augmentation_seed": 42,
+    "adversarial_validation_test_seed": 42
+  },
+  "augmentation_selection_percentage": 0.55,
+  "augmentation_variant_distribution": {
+    "1": 0.7,
+    "2": 0.25,
+    "3": 0.05
+  },
+  "perturbation_levels": {
+    "training": [
+      20
+    ],
+    "validation": [
+      10,
+      20
+    ],
+    "test": [
+      10,
+      20,
+      30
+    ]
+  },
+  "perturbation_techniques_enabled": [
+    "homoglyph_substitution",
+    "leetspeak_obfuscation",
+    "separator_injection",
+    "url_variation",
+    "urgency_paraphrasing",
+    "numeric_otp_variation",
+    "spacing_punctuation_case_noise",
+    "institution_substitution"
+  ],
+  "max_augmented_train_variants": 2200,
+  "max_augmented_train_size_rule": "train_augmented_for_ablation_b <= 2x train_clean rows",
+  "timestamp": "2026-05-14T17:08:11+00:00",
+  "script_versions": [
+    {
+      "path": "scripts/model_ready/adversarial_perturbation_engine.py",
+      "sha256": "9ef0dad42f2a4f877fe99c07cc5884db2f9541f9b63bfba6c9323f7f10375f34"
+    },
+    {
+      "path": "scripts/model_ready/create_adversarial_test_sets.py",
+      "sha256": "95e5c1b00f84a386fb59798283d869d2581dba78c981d4b39e7373e99f2a718e"
+    },
+    {
+      "path": "scripts/model_ready/create_adversarial_validation_sets.py",
+      "sha256": "382e0a185d5ae9add451446a9f7d16065149b984ffd11fc23ab90e0b9ffafa49"
+    },
+    {
+      "path": "scripts/model_ready/create_augmented_training_set.py",
+      "sha256": "3adde7b7c3301fe964fd6ba1c881aa51f5856ebeab7985057d1a7a83d737393a"
+    },
+    {
+      "path": "scripts/model_ready/create_clean_splits.py",
+      "sha256": "a6cd85aab16fec5f71c26f9eace186cf9682b49c5fe605662fe9a3ff99a5a4e1"
+    },
+    {
+      "path": "scripts/model_ready/generate_model_ready_reports.py",
+      "sha256": "a6523807fb47ad08736b47cbf334493f2a6fd5bd30b07277b079f653b41ec85b"
+    },
+    {
+      "path": "scripts/model_ready/model_ready_common.py",
+      "sha256": "c61d60670ab13545f3cd9886dcd117577442e5d4811cf764c6e180fd7bddfaad"
+    },
+    {
+      "path": "scripts/model_ready/prepare_final_clean_dataset.py",
+      "sha256": "cdcff2a0be6fb3aa8d22503842e650da21a26ac913d599d2814b226cdf9bc403"
+    },
+    {
+      "path": "scripts/model_ready/run_model_ready_pipeline.py",
+      "sha256": "dc755cbd9f98e2bc8c5fe8827b5c3cb7a734e80e00976b43f706d9b3057137bc"
+    },
+    {
+      "path": "scripts/model_ready/validate_model_ready_datasets.py",
+      "sha256": "577a22a55187b8fc8a95183ac4898ba8033d9fbad15fcf89f89536a0b0151633"
+    }
+  ]
+}

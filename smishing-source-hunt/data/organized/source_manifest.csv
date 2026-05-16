@@ -1,0 +1,5 @@
+source_name,row_file_status,row_count,ham,spam,smishing,notes
+UCI SMS Spam Collection,available,5574,4827,747,0,Uniform row-level source file generated.
+Mishra & Soni,available,5971,4844,489,638,Uniform row-level source file generated.
+SmishTank,available,1062,0,0,1062,Uniform row-level source file generated.
+Gathered approved smishing 7k,available,7000,0,0,7000,Uniform row-level source file generated.

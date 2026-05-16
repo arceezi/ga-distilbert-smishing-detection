@@ -1,0 +1,6 @@
+artifact_name,artifact_path,perturbation_level,rows,ham,smishing,purpose,smishing_perturbed,ham_unchanged
+val_adv_10,data/06_model_ready/adversarial_validation/val_adv_10.csv,10,1582,791,791,GA fitness evaluation,791,791
+val_adv_20,data/06_model_ready/adversarial_validation/val_adv_20.csv,20,1582,791,791,GA fitness evaluation,791,791
+test_adv_10,data/06_model_ready/adversarial_test/test_adv_10.csv,10,1582,791,791,final robustness evaluation,791,791
+test_adv_20,data/06_model_ready/adversarial_test/test_adv_20.csv,20,1582,791,791,final robustness evaluation,791,791
+test_adv_30,data/06_model_ready/adversarial_test/test_adv_30.csv,30,1582,791,791,final robustness evaluation,791,791

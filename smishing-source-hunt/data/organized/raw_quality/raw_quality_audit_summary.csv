@@ -1,0 +1,6 @@
+metric,value
+rows_inspected,12281
+placeholder_violation_rows,669
+long_message_rows,262
+ham_rows,4959
+smishing_rows,7322

@@ -1,0 +1,5 @@
+source_name,rows,raw_text_available_true,raw_text_available_false,original_unredacted_count,already_redacted_count,source_archive_missing_count,row_match_failed_count,redaction_detected_in_raw_count
+UCI SMS Spam Collection,5574,5570,4,5570,4,0,0,4
+Mishra & Soni,5971,5969,2,5969,2,0,0,2
+SmishTank,1062,1062,0,1062,0,0,0,0
+Gathered approved smishing 7k,7000,967,6033,967,6033,0,0,6033

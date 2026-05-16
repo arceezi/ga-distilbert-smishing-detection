@@ -1,0 +1,5 @@
+dataset_name,field_updates,status_after_round3,notes
+Sting9 Phishing and Scam Message Dataset,"file_format, notes",needs_review,"Blocked: research hub says dataset access authentication required/coming soon; API requires auth; no import until access/license resolved by maintainers."
+Bengali SMS Smishing Dataset,"smishing_count=776, ham_count=0, language=English subset only, status=approved, notes",approved,"Approved only for source == English and label == smish. Imported 776 raw candidates; 663 remain after exact deduplication. Non-English/Banglish/CodeMix rows excluded."
+MIMICS-3500,"file_format, notes",needs_review,"Paper describes dataset; public download not found in Round 3. Highly relevant but likely overlaps with Kaggle, Mendeley, SmishTank, SpamHunter, and INCIBE sources; contact authors before use."
+Smishing-4C Dataset,notes,needs_review,"Dataset page at gvis.unileon.es/datasets-smishing-4c/ returned a bot-check page; do not bypass. Small source from Kaggle and Mendeley smishing samples, likely overlap-heavy."

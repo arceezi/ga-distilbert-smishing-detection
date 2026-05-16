@@ -1,0 +1,10 @@
+﻿sampling_stage,candidate_reason,available,requested,selected,note
+stratified_reason,original_spam_label,0,220,0,underfilled if template/source caps or availability constrained selection
+stratified_reason,needs_smishing_relabel,470,80,80,underfilled if template/source caps or availability constrained selection
+stratified_reason,possible_spam_not_smishing,3,75,3,underfilled if template/source caps or availability constrained selection
+stratified_reason,weak_signal_suspicious,792,75,75,underfilled if template/source caps or availability constrained selection
+stratified_reason,conflict_needs_review,283,50,50,underfilled if template/source caps or availability constrained selection
+stratified_reason,excluded_from_smishing_review,2297,50,50,underfilled if template/source caps or availability constrained selection
+stratified_reason,public_candidate_spam,1017,50,50,underfilled if template/source caps or availability constrained selection
+top_up,any_valid_remaining,4554,192,192,top-up used all candidate reasons while retaining caps
+final,all,4862,500,500,shortage reported if selected is below requested target

@@ -1,0 +1,5 @@
+dataset_name,field_updates,status_after_round4,notes
+Smishing-Dataset-IMC25,"new source; file_format=CSV; smishing_count=22078; ham_count=0; language=English subset imported; license=CC BY 4.0",approved,"Imported 22,078 raw English candidates; 15,433 remain after exact deduplication."
+SMS Phishing Dataset (wspr-ncsu/sms-phishing),"new source; file_format=CSV; smishing_count=68029; ham_count=0; language=unknown per row; license=MIT",approved,"Imported 68,029 raw candidates from phishing_messages.csv; 27,571 remain after exact deduplication. Language review still required."
+SmishX,"new source; file_format=CSV; smishing_count=259; ham_count=0; language=English-dominant; license=MIT",approved,"Imported 259 raw smishing candidates; 214 remain after exact deduplication."
+Bengali SMS Smishing Dataset,"confirm approved candidate-import state after Round 4",approved,"Still approved only for source == English and label == smish. 663 exact-unique candidates remain."
