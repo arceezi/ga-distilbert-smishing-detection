@@ -1,0 +1,14 @@
+{
+  "feature_names": [
+    "g1_url_link",
+    "g2_otp_verification",
+    "g3_urgency_pressure",
+    "g4_financial_terms",
+    "g5_identity_security",
+    "g6_contact_action",
+    "g7_obfuscation_surface",
+    "g8_brand_institution"
+  ],
+  "description": "Eight deterministic engineered feature-group scores used for frozen DistilBERT fusion ablations.",
+  "source_text_column": "model_text"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "Ablation C: Frozen DistilBERT with Uniform Weights",
+  "weights": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "definition": "All eight engineered feature-group weights fixed at w_k = 1.0.",
+  "not_used": "No verification-only weighting; no GA optimization."
+}

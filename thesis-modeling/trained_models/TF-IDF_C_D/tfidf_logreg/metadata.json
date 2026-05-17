@@ -1,0 +1,14 @@
+{
+  "model": "Baseline 1: TF-IDF with Logistic Regression, unweighted",
+  "class_weight": null,
+  "word_max_features": 2500,
+  "char_max_features": 2500,
+  "tfidf_total_features": 5000,
+  "positive_label": "smishing / label_id=1",
+  "evaluation_files": {
+    "test_clean": "data\\06_model_ready\\clean\\test_clean.csv",
+    "test_adv_10": "data\\06_model_ready\\adversarial_test\\test_adv_10.csv",
+    "test_adv_20": "data\\06_model_ready\\adversarial_test\\test_adv_20.csv",
+    "test_adv_30": "data\\06_model_ready\\adversarial_test\\test_adv_30.csv"
+  }
+}
