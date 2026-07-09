@@ -1,0 +1,9 @@
+feature,weight,seed,feature_branch_scale
+G1_URL_Signals,0.705450713634491,7,2.0
+G2_OTP_Numeric_Density,0.9646744132041931,7,2.0
+G3_Obfuscation,1.1261563301086426,7,2.0
+G4_Urgency_Threat_Cues,0.9399605989456177,7,2.0
+G5_Action_Directives,0.7307365536689758,7,2.0
+G6_Financial_Terms,1.0730576515197754,7,2.0
+G7_Auth_Secrets_Request,0.9906110167503357,7,2.0
+G8_Brand_Impersonation,0.969028115272522,7,2.0

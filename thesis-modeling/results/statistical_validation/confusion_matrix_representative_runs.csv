@@ -1,0 +1,29 @@
+model_key,display_name,split,split_label,tp,tn,fp,fn,support_ham,support_smishing,fnr,fpr
+tfidf_baseline1,"Baseline 1 (TF-IDF, unweighted)",test_clean,clean,769,780,11,22,791,791,0.02781289506953224,0.01390644753476612
+tfidf_baseline1,"Baseline 1 (TF-IDF, unweighted)",test_adv_10,adv10,716,780,11,75,791,791,0.09481668773704172,0.01390644753476612
+tfidf_baseline1,"Baseline 1 (TF-IDF, unweighted)",test_adv_20,adv20,699,780,11,92,791,791,0.11630847029077118,0.01390644753476612
+tfidf_baseline1,"Baseline 1 (TF-IDF, unweighted)",test_adv_30,adv30,674,780,11,117,791,791,0.14791403286978508,0.01390644753476612
+tfidf_ablation_a,"Ablation A (TF-IDF, class-weighted)",test_clean,clean,769,780,11,22,791,791,0.02781289506953224,0.01390644753476612
+tfidf_ablation_a,"Ablation A (TF-IDF, class-weighted)",test_adv_10,adv10,716,780,11,75,791,791,0.09481668773704172,0.01390644753476612
+tfidf_ablation_a,"Ablation A (TF-IDF, class-weighted)",test_adv_20,adv20,699,780,11,92,791,791,0.11630847029077118,0.01390644753476612
+tfidf_ablation_a,"Ablation A (TF-IDF, class-weighted)",test_adv_30,adv30,674,780,11,117,791,791,0.14791403286978508,0.01390644753476612
+distilbert_baseline2,Baseline 2 (DistilBERT fine-tuned),test_clean,clean,781,778,13,10,791,791,0.012642225031605562,0.01643489254108723
+distilbert_baseline2,Baseline 2 (DistilBERT fine-tuned),test_adv_10,adv10,777,778,13,14,791,791,0.017699115044247787,0.01643489254108723
+distilbert_baseline2,Baseline 2 (DistilBERT fine-tuned),test_adv_20,adv20,758,778,13,33,791,791,0.041719342604298354,0.01643489254108723
+distilbert_baseline2,Baseline 2 (DistilBERT fine-tuned),test_adv_30,adv30,759,778,13,32,791,791,0.040455120101137804,0.01643489254108723
+distilbert_ablation_b,Ablation B (DistilBERT + augmentation),test_clean,clean,781,775,16,10,791,791,0.012642225031605562,0.020227560050568902
+distilbert_ablation_b,Ablation B (DistilBERT + augmentation),test_adv_10,adv10,783,780,11,8,791,791,0.010113780025284451,0.01390644753476612
+distilbert_ablation_b,Ablation B (DistilBERT + augmentation),test_adv_20,adv20,787,778,13,4,791,791,0.0050568900126422255,0.01643489254108723
+distilbert_ablation_b,Ablation B (DistilBERT + augmentation),test_adv_30,adv30,787,780,11,4,791,791,0.0050568900126422255,0.01390644753476612
+ablation_c,Ablation C (Frozen DistilBERT + uniform),test_clean,clean,747,745,46,44,791,791,0.05562579013906448,0.05815423514538559
+ablation_c,Ablation C (Frozen DistilBERT + uniform),test_adv_10,adv10,727,745,46,64,791,791,0.08091024020227561,0.05815423514538559
+ablation_c,Ablation C (Frozen DistilBERT + uniform),test_adv_20,adv20,717,745,46,74,791,791,0.09355246523388117,0.05815423514538559
+ablation_c,Ablation C (Frozen DistilBERT + uniform),test_adv_30,adv30,689,745,46,102,791,791,0.12895069532237674,0.05815423514538559
+ablation_d,Ablation D (Frozen DistilBERT + random),test_clean,clean,742,748,43,49,791,791,0.061946902654867256,0.05436156763590392
+ablation_d,Ablation D (Frozen DistilBERT + random),test_adv_10,adv10,729,750,41,62,791,791,0.07838179519595449,0.051833122629582805
+ablation_d,Ablation D (Frozen DistilBERT + random),test_adv_20,adv20,713,750,41,78,791,791,0.0986093552465234,0.051833122629582805
+ablation_d,Ablation D (Frozen DistilBERT + random),test_adv_30,adv30,688,750,41,103,791,791,0.1302149178255373,0.051833122629582805
+proposed_ga_v3,Proposed Model (GA-optimized fusion),test_clean,clean,779,692,99,12,791,791,0.015170670037926675,0.12515802781289506
+proposed_ga_v3,Proposed Model (GA-optimized fusion),test_adv_10,adv10,773,692,99,18,791,791,0.022756005056890013,0.12515802781289506
+proposed_ga_v3,Proposed Model (GA-optimized fusion),test_adv_20,adv20,752,692,99,39,791,791,0.0493046776232617,0.12515802781289506
+proposed_ga_v3,Proposed Model (GA-optimized fusion),test_adv_30,adv30,755,692,99,36,791,791,0.045512010113780026,0.12515802781289506

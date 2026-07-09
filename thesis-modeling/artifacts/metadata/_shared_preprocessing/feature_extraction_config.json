@@ -1,0 +1,26 @@
+{
+  "feature_order": [
+    "G1_URL_Signals",
+    "G2_OTP_Numeric_Density",
+    "G3_Obfuscation",
+    "G4_Urgency_Threat_Cues",
+    "G5_Action_Directives",
+    "G6_Financial_Terms",
+    "G7_Auth_Secrets_Request",
+    "G8_Brand_Impersonation"
+  ],
+  "feature_text_col": "message_raw",
+  "embedding_text_col": "model_text",
+  "selected_feature_text_columns": {
+    "train_clean": "message_raw",
+    "val_clean": "message_raw",
+    "test_clean": "message_raw",
+    "val_adv_10": "message_raw",
+    "val_adv_20": "message_raw",
+    "val_adv_30": "message_raw",
+    "test_adv_10": "message_raw",
+    "test_adv_20": "message_raw",
+    "test_adv_30": "message_raw"
+  },
+  "scoring": "Deterministic regex/heuristic scores clipped to [0,1]. Labels are copied only for auditing and are not used to compute scores."
+}

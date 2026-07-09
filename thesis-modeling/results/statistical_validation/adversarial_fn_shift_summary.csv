@@ -1,0 +1,22 @@
+model_key,display_name,adversarial_split,clean_tp_to_adversarial_fn_count,clean_tp_count,shift_rate_among_clean_tp
+tfidf_baseline1,"Baseline 1 (TF-IDF, unweighted)",test_adv_10,53,769,0.06892067620286085
+tfidf_baseline1,"Baseline 1 (TF-IDF, unweighted)",test_adv_20,72,769,0.09362808842652796
+tfidf_baseline1,"Baseline 1 (TF-IDF, unweighted)",test_adv_30,96,769,0.12483745123537061
+tfidf_ablation_a,"Ablation A (TF-IDF, class-weighted)",test_adv_10,53,769,0.06892067620286085
+tfidf_ablation_a,"Ablation A (TF-IDF, class-weighted)",test_adv_20,72,769,0.09362808842652796
+tfidf_ablation_a,"Ablation A (TF-IDF, class-weighted)",test_adv_30,96,769,0.12483745123537061
+distilbert_baseline2,Baseline 2 (DistilBERT fine-tuned),test_adv_10,5,781,0.006402048655569782
+distilbert_baseline2,Baseline 2 (DistilBERT fine-tuned),test_adv_20,26,781,0.03329065300896287
+distilbert_baseline2,Baseline 2 (DistilBERT fine-tuned),test_adv_30,26,781,0.03329065300896287
+distilbert_ablation_b,Ablation B (DistilBERT + augmentation),test_adv_10,3,781,0.0038412291933418692
+distilbert_ablation_b,Ablation B (DistilBERT + augmentation),test_adv_20,2,781,0.002560819462227913
+distilbert_ablation_b,Ablation B (DistilBERT + augmentation),test_adv_30,2,781,0.002560819462227913
+ablation_c,Ablation C (Frozen DistilBERT + uniform),test_adv_10,31,747,0.041499330655957165
+ablation_c,Ablation C (Frozen DistilBERT + uniform),test_adv_20,44,747,0.058902275769745646
+ablation_c,Ablation C (Frozen DistilBERT + uniform),test_adv_30,68,747,0.09103078982597054
+ablation_d,Ablation D (Frozen DistilBERT + random),test_adv_10,26,742,0.03504043126684636
+ablation_d,Ablation D (Frozen DistilBERT + random),test_adv_20,44,742,0.05929919137466307
+ablation_d,Ablation D (Frozen DistilBERT + random),test_adv_30,64,742,0.0862533692722372
+proposed_ga_v3,Proposed Model (GA-optimized fusion),test_adv_10,9,779,0.011553273427471117
+proposed_ga_v3,Proposed Model (GA-optimized fusion),test_adv_20,29,779,0.037227214377406934
+proposed_ga_v3,Proposed Model (GA-optimized fusion),test_adv_30,27,779,0.03465982028241335

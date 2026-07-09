@@ -1,0 +1,36 @@
+{
+  "notebook": "06_statistical_validation_and_error_analysis.ipynb",
+  "source_root": "C:\\Users\\Lenovo\\OneDrive\\Documents\\Coding\\thesis-modeling\\FinalAllTrained",
+  "splits": [
+    "test_clean",
+    "test_adv_10",
+    "test_adv_20",
+    "test_adv_30"
+  ],
+  "models": [
+    "tfidf_baseline1",
+    "tfidf_ablation_a",
+    "distilbert_baseline2",
+    "distilbert_ablation_b",
+    "ablation_c",
+    "ablation_d",
+    "proposed_ga_v3"
+  ],
+  "pairing_key": "final_row_id",
+  "mcnemar_comparisons": [
+    "Proposed vs. Baseline 1",
+    "Proposed vs. Baseline 2",
+    "Proposed vs. Ablation A",
+    "Proposed vs. Ablation B",
+    "Proposed vs. Ablation C",
+    "Proposed vs. Ablation D",
+    "Ablation C vs. Ablation D",
+    "Baseline 1 vs. Ablation A",
+    "Baseline 2 vs. Ablation B"
+  ],
+  "alpha": 0.05,
+  "alpha_per_split_bonferroni": 0.005555555555555556,
+  "alpha_global_bonferroni": 0.001388888888888889,
+  "representative_seed_rule": "median F1 on same split; tie priority 42, 7, 123",
+  "scipy_available": true
+}

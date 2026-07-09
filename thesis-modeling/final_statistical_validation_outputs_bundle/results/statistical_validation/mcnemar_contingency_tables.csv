@@ -1,0 +1,37 @@
+split,comparison,both_correct,model_a_correct_model_b_wrong,model_a_wrong_model_b_correct,both_wrong
+test_clean,Proposed vs. Baseline 1,1452,19,97,14
+test_clean,Proposed vs. Baseline 2,1463,8,96,15
+test_clean,Proposed vs. Ablation A,1452,19,97,14
+test_clean,Proposed vs. Ablation B,1463,8,93,18
+test_clean,Proposed vs. Ablation C,1439,32,53,58
+test_clean,Proposed vs. Ablation D,1434,37,56,55
+test_clean,Ablation C vs. Ablation D,1484,8,6,84
+test_clean,Baseline 1 vs. Ablation A,1549,0,0,33
+test_clean,Baseline 2 vs. Ablation B,1548,11,8,15
+test_adv_10,Proposed vs. Baseline 1,1395,70,101,16
+test_adv_10,Proposed vs. Baseline 2,1454,11,101,16
+test_adv_10,Proposed vs. Ablation A,1395,70,101,16
+test_adv_10,Proposed vs. Ablation B,1458,7,105,12
+test_adv_10,Proposed vs. Ablation C,1419,46,53,64
+test_adv_10,Proposed vs. Ablation D,1421,44,58,59
+test_adv_10,Ablation C vs. Ablation D,1467,5,12,98
+test_adv_10,Baseline 1 vs. Ablation A,1496,0,0,86
+test_adv_10,Baseline 2 vs. Ablation B,1551,4,12,15
+test_adv_20,Proposed vs. Baseline 1,1367,77,112,26
+test_adv_20,Proposed vs. Baseline 2,1426,18,110,28
+test_adv_20,Proposed vs. Ablation A,1367,77,112,26
+test_adv_20,Proposed vs. Ablation B,1441,3,124,14
+test_adv_20,Proposed vs. Ablation C,1409,35,53,85
+test_adv_20,Proposed vs. Ablation D,1405,39,58,80
+test_adv_20,Ablation C vs. Ablation D,1453,9,10,110
+test_adv_20,Baseline 1 vs. Ablation A,1479,0,0,103
+test_adv_20,Baseline 2 vs. Ablation B,1532,4,33,13
+test_adv_30,Proposed vs. Baseline 1,1342,105,112,23
+test_adv_30,Proposed vs. Baseline 2,1427,20,110,25
+test_adv_30,Proposed vs. Ablation A,1342,105,112,23
+test_adv_30,Proposed vs. Ablation B,1443,4,124,11
+test_adv_30,Proposed vs. Ablation C,1381,66,53,82
+test_adv_30,Proposed vs. Ablation D,1380,67,58,77
+test_adv_30,Ablation C vs. Ablation D,1426,8,12,136
+test_adv_30,Baseline 1 vs. Ablation A,1454,0,0,128
+test_adv_30,Baseline 2 vs. Ablation B,1534,3,33,12

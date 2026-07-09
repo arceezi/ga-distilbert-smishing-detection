@@ -1,0 +1,40 @@
+{
+  "version": "v3",
+  "seed": 7,
+  "feature_branch_scale": 2.0,
+  "population_size": 30,
+  "generations": 100,
+  "stopped_generation": 95,
+  "gene_space": [
+    0,
+    2
+  ],
+  "threshold_candidates": [
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8
+  ],
+  "fitness_formula": "0.30*mean_recall + 0.30*mean_f1 + 0.20*min_recall - 0.10*max_fnr - 0.05*mean_fpr - 0.05*robustness_gap - 0.05*weight_extremeness_penalty",
+  "validation_splits": [
+    "val_clean",
+    "val_adv_10",
+    "val_adv_20",
+    "val_adv_30"
+  ],
+  "test_splits_excluded": [
+    "test_clean",
+    "test_adv_10",
+    "test_adv_20",
+    "test_adv_30"
+  ]
+}

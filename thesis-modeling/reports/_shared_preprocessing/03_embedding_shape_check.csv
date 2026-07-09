@@ -1,0 +1,10 @@
+split,dataset_rows,embedding_rows,embedding_dim,embedding_text_source,missing_values
+train_clean,7380,7380,768,model_text,0
+val_clean,1582,1582,768,model_text,0
+test_clean,1582,1582,768,model_text,0
+val_adv_10,1582,1582,768,model_text,0
+val_adv_20,1582,1582,768,model_text,0
+val_adv_30,1582,1582,768,model_text,0
+test_adv_10,1582,1582,768,model_text,0
+test_adv_20,1582,1582,768,model_text,0
+test_adv_30,1582,1582,768,model_text,0

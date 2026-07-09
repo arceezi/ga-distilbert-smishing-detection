@@ -1,0 +1,6 @@
+feature_branch_scale,mean_seed_fitness,std_seed_fitness,best_validation_fitness,mean_fpr,mean_recall,selection_rule
+2.0,0.7415282281200138,0.0002499686582411737,0.7418503018202818,0.1554993678887484,0.9723978086809945,"highest mean_seed_fitness, then lower std_seed_fitness, lower mean_fpr, higher best_validation_fitness"
+3.0,0.7408132975565215,0.00014601981261849577,0.7409521966131754,0.168141592920354,0.9749262536873156,"highest mean_seed_fitness, then lower std_seed_fitness, lower mean_fpr, higher best_validation_fitness"
+1.0,0.7385166121181751,0.0003319317692027544,0.7389859534854386,0.13990729034976823,0.9690265486725664,"highest mean_seed_fitness, then lower std_seed_fitness, lower mean_fpr, higher best_validation_fitness"
+5.0,0.7340650188124407,0.0004708783757528469,0.7347155213064526,0.235566793088917,0.9782975136957438,"highest mean_seed_fitness, then lower std_seed_fitness, lower mean_fpr, higher best_validation_fitness"
+10.0,0.7269337959446608,0.0003821272306651143,0.7272351124685321,0.2507374631268437,0.9776654024441634,"highest mean_seed_fitness, then lower std_seed_fitness, lower mean_fpr, higher best_validation_fitness"

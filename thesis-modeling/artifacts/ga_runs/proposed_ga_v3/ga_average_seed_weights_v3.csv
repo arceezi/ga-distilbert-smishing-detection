@@ -1,0 +1,9 @@
+feature,weight
+G1_URL_Signals,0.7604248
+G2_OTP_Numeric_Density,0.8124946
+G3_Obfuscation,1.1156856
+G4_Urgency_Threat_Cues,0.8532245
+G5_Action_Directives,0.7431464
+G6_Financial_Terms,1.0254264
+G7_Auth_Secrets_Request,1.0290442
+G8_Brand_Impersonation,1.1952163

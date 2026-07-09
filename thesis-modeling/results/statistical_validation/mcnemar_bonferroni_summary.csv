@@ -1,0 +1,5 @@
+split_label,comparisons,significant_uncorrected,significant_bonferroni_per_split,significant_bonferroni_global
+adv10,9,4,2,2
+adv20,9,5,3,3
+adv30,9,3,3,3
+clean,9,5,4,4

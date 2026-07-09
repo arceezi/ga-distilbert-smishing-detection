@@ -1,0 +1,1247 @@
+{
+  "root": "C:\\Users\\Lenovo\\OneDrive\\Documents\\Coding\\thesis-modeling\\FinalAllTrained",
+  "timestamp": "2026-05-19T20:11:36",
+  "moved": [
+    {
+      "source": "results\\metrics\\ablation_c_metrics.csv",
+      "destination": "results\\metrics\\ablation_c\\ablation_c_metrics.csv"
+    },
+    {
+      "source": "results\\metrics\\ablation_c_training_history.csv",
+      "destination": "results\\metrics\\ablation_c\\ablation_c_training_history.csv"
+    },
+    {
+      "source": "results\\metrics\\ablation_d_metrics_by_seed.csv",
+      "destination": "results\\metrics\\ablation_d\\ablation_d_metrics_by_seed.csv"
+    },
+    {
+      "source": "results\\metrics\\ablation_d_metrics_mean_std.csv",
+      "destination": "results\\metrics\\ablation_d\\ablation_d_metrics_mean_std.csv"
+    },
+    {
+      "source": "results\\metrics\\ablation_d_seed123_training_history.csv",
+      "destination": "results\\metrics\\ablation_d\\ablation_d_seed123_training_history.csv"
+    },
+    {
+      "source": "results\\metrics\\ablation_d_seed42_training_history.csv",
+      "destination": "results\\metrics\\ablation_d\\ablation_d_seed42_training_history.csv"
+    },
+    {
+      "source": "results\\metrics\\ablation_d_seed7_training_history.csv",
+      "destination": "results\\metrics\\ablation_d\\ablation_d_seed7_training_history.csv"
+    },
+    {
+      "source": "results\\metrics\\baselines_ablation_final_comparison.csv",
+      "destination": "results\\metrics\\_comparison\\baselines_ablation_final_comparison.csv"
+    },
+    {
+      "source": "results\\metrics\\distilbert_ablation_b_metrics_by_seed.csv",
+      "destination": "results\\metrics\\distilbert_ablation_b\\distilbert_ablation_b_metrics_by_seed.csv"
+    },
+    {
+      "source": "results\\metrics\\distilbert_ablation_b_metrics_mean_std.csv",
+      "destination": "results\\metrics\\distilbert_ablation_b\\distilbert_ablation_b_metrics_mean_std.csv"
+    },
+    {
+      "source": "results\\metrics\\distilbert_ablation_b_seed123_training_history.csv",
+      "destination": "results\\metrics\\distilbert_ablation_b\\distilbert_ablation_b_seed123_training_history.csv"
+    },
+    {
+      "source": "results\\metrics\\distilbert_ablation_b_seed42_training_history.csv",
+      "destination": "results\\metrics\\distilbert_ablation_b\\distilbert_ablation_b_seed42_training_history.csv"
+    },
+    {
+      "source": "results\\metrics\\distilbert_ablation_b_seed7_training_history.csv",
+      "destination": "results\\metrics\\distilbert_ablation_b\\distilbert_ablation_b_seed7_training_history.csv"
+    },
+    {
+      "source": "results\\metrics\\distilbert_baseline2_metrics_by_seed.csv",
+      "destination": "results\\metrics\\distilbert_baseline2\\distilbert_baseline2_metrics_by_seed.csv"
+    },
+    {
+      "source": "results\\metrics\\distilbert_baseline2_metrics_mean_std.csv",
+      "destination": "results\\metrics\\distilbert_baseline2\\distilbert_baseline2_metrics_mean_std.csv"
+    },
+    {
+      "source": "results\\metrics\\distilbert_baseline2_seed123_training_history.csv",
+      "destination": "results\\metrics\\distilbert_baseline2\\distilbert_baseline2_seed123_training_history.csv"
+    },
+    {
+      "source": "results\\metrics\\distilbert_baseline2_seed42_training_history.csv",
+      "destination": "results\\metrics\\distilbert_baseline2\\distilbert_baseline2_seed42_training_history.csv"
+    },
+    {
+      "source": "results\\metrics\\distilbert_baseline2_seed7_training_history.csv",
+      "destination": "results\\metrics\\distilbert_baseline2\\distilbert_baseline2_seed7_training_history.csv"
+    },
+    {
+      "source": "results\\metrics\\final_model_comparison_all_available_v3.csv",
+      "destination": "results\\metrics\\_comparison\\final_model_comparison_all_available_v3.csv"
+    },
+    {
+      "source": "results\\metrics\\proposed_ga_v3_metrics_by_seed.csv",
+      "destination": "results\\metrics\\proposed_ga_v3\\proposed_ga_v3_metrics_by_seed.csv"
+    },
+    {
+      "source": "results\\metrics\\proposed_ga_v3_metrics_mean_std.csv",
+      "destination": "results\\metrics\\proposed_ga_v3\\proposed_ga_v3_metrics_mean_std.csv"
+    },
+    {
+      "source": "results\\metrics\\proposed_ga_v3_seed123_training_history.csv",
+      "destination": "results\\metrics\\proposed_ga_v3\\proposed_ga_v3_seed123_training_history.csv"
+    },
+    {
+      "source": "results\\metrics\\proposed_ga_v3_seed42_training_history.csv",
+      "destination": "results\\metrics\\proposed_ga_v3\\proposed_ga_v3_seed42_training_history.csv"
+    },
+    {
+      "source": "results\\metrics\\proposed_ga_v3_seed7_training_history.csv",
+      "destination": "results\\metrics\\proposed_ga_v3\\proposed_ga_v3_seed7_training_history.csv"
+    },
+    {
+      "source": "results\\metrics\\proposed_phase_a_metrics.csv",
+      "destination": "results\\metrics\\proposed_ga_v3\\proposed_phase_a_metrics.csv"
+    },
+    {
+      "source": "results\\metrics\\proposed_phase_a_training_history.csv",
+      "destination": "results\\metrics\\proposed_ga_v3\\proposed_phase_a_training_history.csv"
+    },
+    {
+      "source": "results\\metrics\\proposed_phase_c_training_history.csv",
+      "destination": "results\\metrics\\proposed_ga_v3\\proposed_phase_c_training_history.csv"
+    },
+    {
+      "source": "results\\metrics\\tfidf_ablation_a_metrics_by_seed.csv",
+      "destination": "results\\metrics\\tfidf_ablation_a\\tfidf_ablation_a_metrics_by_seed.csv"
+    },
+    {
+      "source": "results\\metrics\\tfidf_ablation_a_metrics_mean_std.csv",
+      "destination": "results\\metrics\\tfidf_ablation_a\\tfidf_ablation_a_metrics_mean_std.csv"
+    },
+    {
+      "source": "results\\metrics\\tfidf_ablation_a_validation_metrics_by_seed.csv",
+      "destination": "results\\metrics\\tfidf_ablation_a\\tfidf_ablation_a_validation_metrics_by_seed.csv"
+    },
+    {
+      "source": "results\\metrics\\tfidf_baseline1_metrics_by_seed.csv",
+      "destination": "results\\metrics\\tfidf_baseline1\\tfidf_baseline1_metrics_by_seed.csv"
+    },
+    {
+      "source": "results\\metrics\\tfidf_baseline1_metrics_mean_std.csv",
+      "destination": "results\\metrics\\tfidf_baseline1\\tfidf_baseline1_metrics_mean_std.csv"
+    },
+    {
+      "source": "results\\metrics\\tfidf_baseline1_validation_metrics_by_seed.csv",
+      "destination": "results\\metrics\\tfidf_baseline1\\tfidf_baseline1_validation_metrics_by_seed.csv"
+    },
+    {
+      "source": "results\\predictions\\ablation_c_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\ablation_c\\ablation_c_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\ablation_c_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\ablation_c\\ablation_c_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\ablation_c_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\ablation_c\\ablation_c_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\ablation_c_predictions_test_clean.csv",
+      "destination": "results\\predictions\\ablation_c\\ablation_c_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\ablation_d_seed123_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\ablation_d\\ablation_d_seed123_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\ablation_d_seed123_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\ablation_d\\ablation_d_seed123_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\ablation_d_seed123_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\ablation_d\\ablation_d_seed123_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\ablation_d_seed123_predictions_test_clean.csv",
+      "destination": "results\\predictions\\ablation_d\\ablation_d_seed123_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\ablation_d_seed42_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\ablation_d\\ablation_d_seed42_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\ablation_d_seed42_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\ablation_d\\ablation_d_seed42_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\ablation_d_seed42_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\ablation_d\\ablation_d_seed42_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\ablation_d_seed42_predictions_test_clean.csv",
+      "destination": "results\\predictions\\ablation_d\\ablation_d_seed42_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\ablation_d_seed7_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\ablation_d\\ablation_d_seed7_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\ablation_d_seed7_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\ablation_d\\ablation_d_seed7_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\ablation_d_seed7_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\ablation_d\\ablation_d_seed7_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\ablation_d_seed7_predictions_test_clean.csv",
+      "destination": "results\\predictions\\ablation_d\\ablation_d_seed7_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_ablation_b_seed123_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\distilbert_ablation_b\\distilbert_ablation_b_seed123_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_ablation_b_seed123_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\distilbert_ablation_b\\distilbert_ablation_b_seed123_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_ablation_b_seed123_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\distilbert_ablation_b\\distilbert_ablation_b_seed123_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_ablation_b_seed123_predictions_test_clean.csv",
+      "destination": "results\\predictions\\distilbert_ablation_b\\distilbert_ablation_b_seed123_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_ablation_b_seed42_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\distilbert_ablation_b\\distilbert_ablation_b_seed42_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_ablation_b_seed42_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\distilbert_ablation_b\\distilbert_ablation_b_seed42_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_ablation_b_seed42_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\distilbert_ablation_b\\distilbert_ablation_b_seed42_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_ablation_b_seed42_predictions_test_clean.csv",
+      "destination": "results\\predictions\\distilbert_ablation_b\\distilbert_ablation_b_seed42_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_ablation_b_seed7_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\distilbert_ablation_b\\distilbert_ablation_b_seed7_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_ablation_b_seed7_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\distilbert_ablation_b\\distilbert_ablation_b_seed7_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_ablation_b_seed7_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\distilbert_ablation_b\\distilbert_ablation_b_seed7_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_ablation_b_seed7_predictions_test_clean.csv",
+      "destination": "results\\predictions\\distilbert_ablation_b\\distilbert_ablation_b_seed7_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_baseline2_seed123_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\distilbert_baseline2\\distilbert_baseline2_seed123_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_baseline2_seed123_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\distilbert_baseline2\\distilbert_baseline2_seed123_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_baseline2_seed123_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\distilbert_baseline2\\distilbert_baseline2_seed123_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_baseline2_seed123_predictions_test_clean.csv",
+      "destination": "results\\predictions\\distilbert_baseline2\\distilbert_baseline2_seed123_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_baseline2_seed42_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\distilbert_baseline2\\distilbert_baseline2_seed42_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_baseline2_seed42_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\distilbert_baseline2\\distilbert_baseline2_seed42_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_baseline2_seed42_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\distilbert_baseline2\\distilbert_baseline2_seed42_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_baseline2_seed42_predictions_test_clean.csv",
+      "destination": "results\\predictions\\distilbert_baseline2\\distilbert_baseline2_seed42_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_baseline2_seed7_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\distilbert_baseline2\\distilbert_baseline2_seed7_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_baseline2_seed7_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\distilbert_baseline2\\distilbert_baseline2_seed7_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_baseline2_seed7_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\distilbert_baseline2\\distilbert_baseline2_seed7_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\distilbert_baseline2_seed7_predictions_test_clean.csv",
+      "destination": "results\\predictions\\distilbert_baseline2\\distilbert_baseline2_seed7_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_false_negatives_test_adv_10.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_false_negatives_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_false_negatives_test_adv_20.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_false_negatives_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_false_negatives_test_adv_30.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_false_negatives_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_false_negatives_test_clean.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_false_negatives_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_false_positives_test_adv_10.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_false_positives_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_false_positives_test_adv_20.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_false_positives_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_false_positives_test_adv_30.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_false_positives_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_false_positives_test_clean.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_false_positives_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_phase_aphase_a_predictions_val_clean.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_phase_aphase_a_predictions_val_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_seed123_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_seed123_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_seed123_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_seed123_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_seed123_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_seed123_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_seed123_predictions_test_clean.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_seed123_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_seed42_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_seed42_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_seed42_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_seed42_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_seed42_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_seed42_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_seed42_predictions_test_clean.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_seed42_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_seed7_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_seed7_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_seed7_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_seed7_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_seed7_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_seed7_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\proposed_ga_v3_seed7_predictions_test_clean.csv",
+      "destination": "results\\predictions\\proposed_ga_v3\\proposed_ga_v3_seed7_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_ablation_a_seed123_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\tfidf_ablation_a\\tfidf_ablation_a_seed123_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_ablation_a_seed123_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\tfidf_ablation_a\\tfidf_ablation_a_seed123_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_ablation_a_seed123_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\tfidf_ablation_a\\tfidf_ablation_a_seed123_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_ablation_a_seed123_predictions_test_clean.csv",
+      "destination": "results\\predictions\\tfidf_ablation_a\\tfidf_ablation_a_seed123_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_ablation_a_seed42_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\tfidf_ablation_a\\tfidf_ablation_a_seed42_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_ablation_a_seed42_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\tfidf_ablation_a\\tfidf_ablation_a_seed42_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_ablation_a_seed42_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\tfidf_ablation_a\\tfidf_ablation_a_seed42_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_ablation_a_seed42_predictions_test_clean.csv",
+      "destination": "results\\predictions\\tfidf_ablation_a\\tfidf_ablation_a_seed42_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_ablation_a_seed7_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\tfidf_ablation_a\\tfidf_ablation_a_seed7_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_ablation_a_seed7_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\tfidf_ablation_a\\tfidf_ablation_a_seed7_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_ablation_a_seed7_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\tfidf_ablation_a\\tfidf_ablation_a_seed7_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_ablation_a_seed7_predictions_test_clean.csv",
+      "destination": "results\\predictions\\tfidf_ablation_a\\tfidf_ablation_a_seed7_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_baseline1_seed123_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\tfidf_baseline1\\tfidf_baseline1_seed123_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_baseline1_seed123_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\tfidf_baseline1\\tfidf_baseline1_seed123_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_baseline1_seed123_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\tfidf_baseline1\\tfidf_baseline1_seed123_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_baseline1_seed123_predictions_test_clean.csv",
+      "destination": "results\\predictions\\tfidf_baseline1\\tfidf_baseline1_seed123_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_baseline1_seed42_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\tfidf_baseline1\\tfidf_baseline1_seed42_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_baseline1_seed42_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\tfidf_baseline1\\tfidf_baseline1_seed42_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_baseline1_seed42_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\tfidf_baseline1\\tfidf_baseline1_seed42_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_baseline1_seed42_predictions_test_clean.csv",
+      "destination": "results\\predictions\\tfidf_baseline1\\tfidf_baseline1_seed42_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_baseline1_seed7_predictions_test_adv_10.csv",
+      "destination": "results\\predictions\\tfidf_baseline1\\tfidf_baseline1_seed7_predictions_test_adv_10.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_baseline1_seed7_predictions_test_adv_20.csv",
+      "destination": "results\\predictions\\tfidf_baseline1\\tfidf_baseline1_seed7_predictions_test_adv_20.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_baseline1_seed7_predictions_test_adv_30.csv",
+      "destination": "results\\predictions\\tfidf_baseline1\\tfidf_baseline1_seed7_predictions_test_adv_30.csv"
+    },
+    {
+      "source": "results\\predictions\\tfidf_baseline1_seed7_predictions_test_clean.csv",
+      "destination": "results\\predictions\\tfidf_baseline1\\tfidf_baseline1_seed7_predictions_test_clean.csv"
+    },
+    {
+      "source": "results\\figures\\ablation_c_confusion_matrix_test_adv_10.png",
+      "destination": "results\\figures\\ablation_c\\ablation_c_confusion_matrix_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\ablation_c_confusion_matrix_test_adv_20.png",
+      "destination": "results\\figures\\ablation_c\\ablation_c_confusion_matrix_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\ablation_c_confusion_matrix_test_adv_30.png",
+      "destination": "results\\figures\\ablation_c\\ablation_c_confusion_matrix_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\ablation_c_confusion_matrix_test_clean.png",
+      "destination": "results\\figures\\ablation_c\\ablation_c_confusion_matrix_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\ablation_d_confusion_matrix_seed123_test_adv_10.png",
+      "destination": "results\\figures\\ablation_d\\ablation_d_confusion_matrix_seed123_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\ablation_d_confusion_matrix_seed123_test_adv_20.png",
+      "destination": "results\\figures\\ablation_d\\ablation_d_confusion_matrix_seed123_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\ablation_d_confusion_matrix_seed123_test_adv_30.png",
+      "destination": "results\\figures\\ablation_d\\ablation_d_confusion_matrix_seed123_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\ablation_d_confusion_matrix_seed123_test_clean.png",
+      "destination": "results\\figures\\ablation_d\\ablation_d_confusion_matrix_seed123_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\ablation_d_confusion_matrix_seed42_test_adv_10.png",
+      "destination": "results\\figures\\ablation_d\\ablation_d_confusion_matrix_seed42_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\ablation_d_confusion_matrix_seed42_test_adv_20.png",
+      "destination": "results\\figures\\ablation_d\\ablation_d_confusion_matrix_seed42_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\ablation_d_confusion_matrix_seed42_test_adv_30.png",
+      "destination": "results\\figures\\ablation_d\\ablation_d_confusion_matrix_seed42_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\ablation_d_confusion_matrix_seed42_test_clean.png",
+      "destination": "results\\figures\\ablation_d\\ablation_d_confusion_matrix_seed42_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\ablation_d_confusion_matrix_seed7_test_adv_10.png",
+      "destination": "results\\figures\\ablation_d\\ablation_d_confusion_matrix_seed7_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\ablation_d_confusion_matrix_seed7_test_adv_20.png",
+      "destination": "results\\figures\\ablation_d\\ablation_d_confusion_matrix_seed7_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\ablation_d_confusion_matrix_seed7_test_adv_30.png",
+      "destination": "results\\figures\\ablation_d\\ablation_d_confusion_matrix_seed7_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\ablation_d_confusion_matrix_seed7_test_clean.png",
+      "destination": "results\\figures\\ablation_d\\ablation_d_confusion_matrix_seed7_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_ablation_b_confusion_matrix_seed123_test_adv_10.png",
+      "destination": "results\\figures\\distilbert_ablation_b\\distilbert_ablation_b_confusion_matrix_seed123_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_ablation_b_confusion_matrix_seed123_test_adv_20.png",
+      "destination": "results\\figures\\distilbert_ablation_b\\distilbert_ablation_b_confusion_matrix_seed123_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_ablation_b_confusion_matrix_seed123_test_adv_30.png",
+      "destination": "results\\figures\\distilbert_ablation_b\\distilbert_ablation_b_confusion_matrix_seed123_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_ablation_b_confusion_matrix_seed123_test_clean.png",
+      "destination": "results\\figures\\distilbert_ablation_b\\distilbert_ablation_b_confusion_matrix_seed123_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_ablation_b_confusion_matrix_seed42_test_adv_10.png",
+      "destination": "results\\figures\\distilbert_ablation_b\\distilbert_ablation_b_confusion_matrix_seed42_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_ablation_b_confusion_matrix_seed42_test_adv_20.png",
+      "destination": "results\\figures\\distilbert_ablation_b\\distilbert_ablation_b_confusion_matrix_seed42_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_ablation_b_confusion_matrix_seed42_test_adv_30.png",
+      "destination": "results\\figures\\distilbert_ablation_b\\distilbert_ablation_b_confusion_matrix_seed42_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_ablation_b_confusion_matrix_seed42_test_clean.png",
+      "destination": "results\\figures\\distilbert_ablation_b\\distilbert_ablation_b_confusion_matrix_seed42_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_ablation_b_confusion_matrix_seed7_test_adv_10.png",
+      "destination": "results\\figures\\distilbert_ablation_b\\distilbert_ablation_b_confusion_matrix_seed7_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_ablation_b_confusion_matrix_seed7_test_adv_20.png",
+      "destination": "results\\figures\\distilbert_ablation_b\\distilbert_ablation_b_confusion_matrix_seed7_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_ablation_b_confusion_matrix_seed7_test_adv_30.png",
+      "destination": "results\\figures\\distilbert_ablation_b\\distilbert_ablation_b_confusion_matrix_seed7_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_ablation_b_confusion_matrix_seed7_test_clean.png",
+      "destination": "results\\figures\\distilbert_ablation_b\\distilbert_ablation_b_confusion_matrix_seed7_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_ablation_b_training_curve_seed123.png",
+      "destination": "results\\figures\\distilbert_ablation_b\\distilbert_ablation_b_training_curve_seed123.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_ablation_b_training_curve_seed42.png",
+      "destination": "results\\figures\\distilbert_ablation_b\\distilbert_ablation_b_training_curve_seed42.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_ablation_b_training_curve_seed7.png",
+      "destination": "results\\figures\\distilbert_ablation_b\\distilbert_ablation_b_training_curve_seed7.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_baseline2_confusion_matrix_seed123_test_adv_10.png",
+      "destination": "results\\figures\\distilbert_baseline2\\distilbert_baseline2_confusion_matrix_seed123_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_baseline2_confusion_matrix_seed123_test_adv_20.png",
+      "destination": "results\\figures\\distilbert_baseline2\\distilbert_baseline2_confusion_matrix_seed123_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_baseline2_confusion_matrix_seed123_test_adv_30.png",
+      "destination": "results\\figures\\distilbert_baseline2\\distilbert_baseline2_confusion_matrix_seed123_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_baseline2_confusion_matrix_seed123_test_clean.png",
+      "destination": "results\\figures\\distilbert_baseline2\\distilbert_baseline2_confusion_matrix_seed123_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_baseline2_confusion_matrix_seed42_test_adv_10.png",
+      "destination": "results\\figures\\distilbert_baseline2\\distilbert_baseline2_confusion_matrix_seed42_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_baseline2_confusion_matrix_seed42_test_adv_20.png",
+      "destination": "results\\figures\\distilbert_baseline2\\distilbert_baseline2_confusion_matrix_seed42_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_baseline2_confusion_matrix_seed42_test_adv_30.png",
+      "destination": "results\\figures\\distilbert_baseline2\\distilbert_baseline2_confusion_matrix_seed42_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_baseline2_confusion_matrix_seed42_test_clean.png",
+      "destination": "results\\figures\\distilbert_baseline2\\distilbert_baseline2_confusion_matrix_seed42_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_baseline2_confusion_matrix_seed7_test_adv_10.png",
+      "destination": "results\\figures\\distilbert_baseline2\\distilbert_baseline2_confusion_matrix_seed7_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_baseline2_confusion_matrix_seed7_test_adv_20.png",
+      "destination": "results\\figures\\distilbert_baseline2\\distilbert_baseline2_confusion_matrix_seed7_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_baseline2_confusion_matrix_seed7_test_adv_30.png",
+      "destination": "results\\figures\\distilbert_baseline2\\distilbert_baseline2_confusion_matrix_seed7_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_baseline2_confusion_matrix_seed7_test_clean.png",
+      "destination": "results\\figures\\distilbert_baseline2\\distilbert_baseline2_confusion_matrix_seed7_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_baseline2_training_curve_seed123.png",
+      "destination": "results\\figures\\distilbert_baseline2\\distilbert_baseline2_training_curve_seed123.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_baseline2_training_curve_seed42.png",
+      "destination": "results\\figures\\distilbert_baseline2\\distilbert_baseline2_training_curve_seed42.png"
+    },
+    {
+      "source": "results\\figures\\distilbert_baseline2_training_curve_seed7.png",
+      "destination": "results\\figures\\distilbert_baseline2\\distilbert_baseline2_training_curve_seed7.png"
+    },
+    {
+      "source": "results\\figures\\ga_best_weights_bar_chart_v3.png",
+      "destination": "results\\figures\\proposed_ga_v3\\ga_best_weights_bar_chart_v3.png"
+    },
+    {
+      "source": "results\\figures\\proposed_ga_v3_confusion_matrix_seed123_test_adv_10.png",
+      "destination": "results\\figures\\proposed_ga_v3\\proposed_ga_v3_confusion_matrix_seed123_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\proposed_ga_v3_confusion_matrix_seed123_test_adv_20.png",
+      "destination": "results\\figures\\proposed_ga_v3\\proposed_ga_v3_confusion_matrix_seed123_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\proposed_ga_v3_confusion_matrix_seed123_test_adv_30.png",
+      "destination": "results\\figures\\proposed_ga_v3\\proposed_ga_v3_confusion_matrix_seed123_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\proposed_ga_v3_confusion_matrix_seed123_test_clean.png",
+      "destination": "results\\figures\\proposed_ga_v3\\proposed_ga_v3_confusion_matrix_seed123_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\proposed_ga_v3_confusion_matrix_seed42_test_adv_10.png",
+      "destination": "results\\figures\\proposed_ga_v3\\proposed_ga_v3_confusion_matrix_seed42_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\proposed_ga_v3_confusion_matrix_seed42_test_adv_20.png",
+      "destination": "results\\figures\\proposed_ga_v3\\proposed_ga_v3_confusion_matrix_seed42_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\proposed_ga_v3_confusion_matrix_seed42_test_adv_30.png",
+      "destination": "results\\figures\\proposed_ga_v3\\proposed_ga_v3_confusion_matrix_seed42_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\proposed_ga_v3_confusion_matrix_seed42_test_clean.png",
+      "destination": "results\\figures\\proposed_ga_v3\\proposed_ga_v3_confusion_matrix_seed42_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\proposed_ga_v3_confusion_matrix_seed7_test_adv_10.png",
+      "destination": "results\\figures\\proposed_ga_v3\\proposed_ga_v3_confusion_matrix_seed7_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\proposed_ga_v3_confusion_matrix_seed7_test_adv_20.png",
+      "destination": "results\\figures\\proposed_ga_v3\\proposed_ga_v3_confusion_matrix_seed7_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\proposed_ga_v3_confusion_matrix_seed7_test_adv_30.png",
+      "destination": "results\\figures\\proposed_ga_v3\\proposed_ga_v3_confusion_matrix_seed7_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\proposed_ga_v3_confusion_matrix_seed7_test_clean.png",
+      "destination": "results\\figures\\proposed_ga_v3\\proposed_ga_v3_confusion_matrix_seed7_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\proposed_ga_v3_phase_aphase_a_confusion_matrix_val_clean.png",
+      "destination": "results\\figures\\proposed_ga_v3\\proposed_ga_v3_phase_aphase_a_confusion_matrix_val_clean.png"
+    },
+    {
+      "source": "results\\figures\\proposed_phase_c_training_curve_seed123.png",
+      "destination": "results\\figures\\proposed_ga_v3\\proposed_phase_c_training_curve_seed123.png"
+    },
+    {
+      "source": "results\\figures\\proposed_phase_c_training_curve_seed42.png",
+      "destination": "results\\figures\\proposed_ga_v3\\proposed_phase_c_training_curve_seed42.png"
+    },
+    {
+      "source": "results\\figures\\proposed_phase_c_training_curve_seed7.png",
+      "destination": "results\\figures\\proposed_ga_v3\\proposed_phase_c_training_curve_seed7.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_ablation_a_confusion_matrix_seed123_test_adv_10.png",
+      "destination": "results\\figures\\tfidf_ablation_a\\tfidf_ablation_a_confusion_matrix_seed123_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_ablation_a_confusion_matrix_seed123_test_adv_20.png",
+      "destination": "results\\figures\\tfidf_ablation_a\\tfidf_ablation_a_confusion_matrix_seed123_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_ablation_a_confusion_matrix_seed123_test_adv_30.png",
+      "destination": "results\\figures\\tfidf_ablation_a\\tfidf_ablation_a_confusion_matrix_seed123_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_ablation_a_confusion_matrix_seed123_test_clean.png",
+      "destination": "results\\figures\\tfidf_ablation_a\\tfidf_ablation_a_confusion_matrix_seed123_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_ablation_a_confusion_matrix_seed42_test_adv_10.png",
+      "destination": "results\\figures\\tfidf_ablation_a\\tfidf_ablation_a_confusion_matrix_seed42_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_ablation_a_confusion_matrix_seed42_test_adv_20.png",
+      "destination": "results\\figures\\tfidf_ablation_a\\tfidf_ablation_a_confusion_matrix_seed42_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_ablation_a_confusion_matrix_seed42_test_adv_30.png",
+      "destination": "results\\figures\\tfidf_ablation_a\\tfidf_ablation_a_confusion_matrix_seed42_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_ablation_a_confusion_matrix_seed42_test_clean.png",
+      "destination": "results\\figures\\tfidf_ablation_a\\tfidf_ablation_a_confusion_matrix_seed42_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_ablation_a_confusion_matrix_seed7_test_adv_10.png",
+      "destination": "results\\figures\\tfidf_ablation_a\\tfidf_ablation_a_confusion_matrix_seed7_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_ablation_a_confusion_matrix_seed7_test_adv_20.png",
+      "destination": "results\\figures\\tfidf_ablation_a\\tfidf_ablation_a_confusion_matrix_seed7_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_ablation_a_confusion_matrix_seed7_test_adv_30.png",
+      "destination": "results\\figures\\tfidf_ablation_a\\tfidf_ablation_a_confusion_matrix_seed7_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_ablation_a_confusion_matrix_seed7_test_clean.png",
+      "destination": "results\\figures\\tfidf_ablation_a\\tfidf_ablation_a_confusion_matrix_seed7_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_baseline1_confusion_matrix_seed123_test_adv_10.png",
+      "destination": "results\\figures\\tfidf_baseline1\\tfidf_baseline1_confusion_matrix_seed123_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_baseline1_confusion_matrix_seed123_test_adv_20.png",
+      "destination": "results\\figures\\tfidf_baseline1\\tfidf_baseline1_confusion_matrix_seed123_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_baseline1_confusion_matrix_seed123_test_adv_30.png",
+      "destination": "results\\figures\\tfidf_baseline1\\tfidf_baseline1_confusion_matrix_seed123_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_baseline1_confusion_matrix_seed123_test_clean.png",
+      "destination": "results\\figures\\tfidf_baseline1\\tfidf_baseline1_confusion_matrix_seed123_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_baseline1_confusion_matrix_seed42_test_adv_10.png",
+      "destination": "results\\figures\\tfidf_baseline1\\tfidf_baseline1_confusion_matrix_seed42_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_baseline1_confusion_matrix_seed42_test_adv_20.png",
+      "destination": "results\\figures\\tfidf_baseline1\\tfidf_baseline1_confusion_matrix_seed42_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_baseline1_confusion_matrix_seed42_test_adv_30.png",
+      "destination": "results\\figures\\tfidf_baseline1\\tfidf_baseline1_confusion_matrix_seed42_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_baseline1_confusion_matrix_seed42_test_clean.png",
+      "destination": "results\\figures\\tfidf_baseline1\\tfidf_baseline1_confusion_matrix_seed42_test_clean.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_baseline1_confusion_matrix_seed7_test_adv_10.png",
+      "destination": "results\\figures\\tfidf_baseline1\\tfidf_baseline1_confusion_matrix_seed7_test_adv_10.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_baseline1_confusion_matrix_seed7_test_adv_20.png",
+      "destination": "results\\figures\\tfidf_baseline1\\tfidf_baseline1_confusion_matrix_seed7_test_adv_20.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_baseline1_confusion_matrix_seed7_test_adv_30.png",
+      "destination": "results\\figures\\tfidf_baseline1\\tfidf_baseline1_confusion_matrix_seed7_test_adv_30.png"
+    },
+    {
+      "source": "results\\figures\\tfidf_baseline1_confusion_matrix_seed7_test_clean.png",
+      "destination": "results\\figures\\tfidf_baseline1\\tfidf_baseline1_confusion_matrix_seed7_test_clean.png"
+    },
+    {
+      "source": "results\\degradation_tables\\ablation_c_degradation_table.csv",
+      "destination": "results\\degradation_tables\\ablation_c\\ablation_c_degradation_table.csv"
+    },
+    {
+      "source": "results\\degradation_tables\\ablation_d_degradation_table.csv",
+      "destination": "results\\degradation_tables\\ablation_d\\ablation_d_degradation_table.csv"
+    },
+    {
+      "source": "results\\degradation_tables\\distilbert_ablation_b_degradation_table.csv",
+      "destination": "results\\degradation_tables\\distilbert_ablation_b\\distilbert_ablation_b_degradation_table.csv"
+    },
+    {
+      "source": "results\\degradation_tables\\distilbert_baseline2_degradation_table.csv",
+      "destination": "results\\degradation_tables\\distilbert_baseline2\\distilbert_baseline2_degradation_table.csv"
+    },
+    {
+      "source": "results\\degradation_tables\\proposed_ga_v3_degradation_table.csv",
+      "destination": "results\\degradation_tables\\proposed_ga_v3\\proposed_ga_v3_degradation_table.csv"
+    },
+    {
+      "source": "results\\degradation_tables\\tfidf_ablation_a_degradation_table.csv",
+      "destination": "results\\degradation_tables\\tfidf_ablation_a\\tfidf_ablation_a_degradation_table.csv"
+    },
+    {
+      "source": "results\\degradation_tables\\tfidf_baseline1_degradation_table.csv",
+      "destination": "results\\degradation_tables\\tfidf_baseline1\\tfidf_baseline1_degradation_table.csv"
+    },
+    {
+      "source": "reports\\03_embedding_shape_check.csv",
+      "destination": "reports\\_shared_preprocessing\\03_embedding_shape_check.csv"
+    },
+    {
+      "source": "reports\\03_feature_distribution_summary.csv",
+      "destination": "reports\\_shared_preprocessing\\03_feature_distribution_summary.csv"
+    },
+    {
+      "source": "reports\\03_feature_extraction_summary.md",
+      "destination": "reports\\_shared_preprocessing\\03_feature_extraction_summary.md"
+    },
+    {
+      "source": "reports\\03_val_adv_30_generation_summary.md",
+      "destination": "reports\\_shared_preprocessing\\03_val_adv_30_generation_summary.md"
+    },
+    {
+      "source": "reports\\ablation_c_corrected_summary.md",
+      "destination": "reports\\ablation_c\\ablation_c_corrected_summary.md"
+    },
+    {
+      "source": "reports\\ablation_d_corrected_summary.md",
+      "destination": "reports\\ablation_d\\ablation_d_corrected_summary.md"
+    },
+    {
+      "source": "reports\\baselines_ablation_final_comparison.md",
+      "destination": "reports\\_comparison\\baselines_ablation_final_comparison.md"
+    },
+    {
+      "source": "reports\\distilbert_ablation_b_summary.md",
+      "destination": "reports\\distilbert_ablation_b\\distilbert_ablation_b_summary.md"
+    },
+    {
+      "source": "reports\\distilbert_baseline2_summary.md",
+      "destination": "reports\\distilbert_baseline2\\distilbert_baseline2_summary.md"
+    },
+    {
+      "source": "reports\\distilbert_baselines_audit_summary.md",
+      "destination": "reports\\_comparison\\distilbert_baselines_audit_summary.md"
+    },
+    {
+      "source": "reports\\final_model_comparison_all_available_v3.md",
+      "destination": "reports\\_comparison\\final_model_comparison_all_available_v3.md"
+    },
+    {
+      "source": "reports\\proposed_ga_v3_audit_summary.md",
+      "destination": "reports\\proposed_ga_v3\\proposed_ga_v3_audit_summary.md"
+    },
+    {
+      "source": "reports\\proposed_ga_v3_data_routing_check.md",
+      "destination": "reports\\proposed_ga_v3\\proposed_ga_v3_data_routing_check.md"
+    },
+    {
+      "source": "reports\\proposed_ga_v3_final_summary.md",
+      "destination": "reports\\proposed_ga_v3\\proposed_ga_v3_final_summary.md"
+    },
+    {
+      "source": "reports\\proposed_ga_v3_overfitting_check.md",
+      "destination": "reports\\proposed_ga_v3\\proposed_ga_v3_overfitting_check.md"
+    },
+    {
+      "source": "reports\\proposed_ga_v3_robustness_improvement_summary.md",
+      "destination": "reports\\proposed_ga_v3\\proposed_ga_v3_robustness_improvement_summary.md"
+    },
+    {
+      "source": "reports\\proposed_phase_a_summary.md",
+      "destination": "reports\\proposed_ga_v3\\proposed_phase_a_summary.md"
+    },
+    {
+      "source": "reports\\tfidf_ablation_a_summary.md",
+      "destination": "reports\\tfidf_ablation_a\\tfidf_ablation_a_summary.md"
+    },
+    {
+      "source": "reports\\tfidf_baseline1_summary.md",
+      "destination": "reports\\tfidf_baseline1\\tfidf_baseline1_summary.md"
+    },
+    {
+      "source": "reports\\tfidf_logreg_audit_summary.md",
+      "destination": "reports\\_comparison\\tfidf_logreg_audit_summary.md"
+    },
+    {
+      "source": "artifacts\\ga_runs\\feature_branch_scale_search_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\feature_branch_scale_search_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_average_seed_weights_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_average_seed_weights_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_best_overall_weights_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_best_overall_weights_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_scale10p0_seed123_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_scale10p0_seed123_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_scale10p0_seed42_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_scale10p0_seed42_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_scale10p0_seed7_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_scale10p0_seed7_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_scale1p0_seed123_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_scale1p0_seed123_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_scale1p0_seed42_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_scale1p0_seed42_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_scale1p0_seed7_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_scale1p0_seed7_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_scale2p0_seed123_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_scale2p0_seed123_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_scale2p0_seed42_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_scale2p0_seed42_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_scale2p0_seed7_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_scale2p0_seed7_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_scale3p0_seed123_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_scale3p0_seed123_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_scale3p0_seed42_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_scale3p0_seed42_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_scale3p0_seed7_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_scale3p0_seed7_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_scale5p0_seed123_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_scale5p0_seed123_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_scale5p0_seed42_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_scale5p0_seed42_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_scale5p0_seed7_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_scale5p0_seed7_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed123_best_weights.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed123_best_weights.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed123_best_weights_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed123_best_weights_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed123_config.json",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed123_config.json"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed123_config_v3.json",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed123_config_v3.json"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed123_fitness_history.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed123_fitness_history.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed123_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed123_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed42_best_weights.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed42_best_weights.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed42_best_weights_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed42_best_weights_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed42_config.json",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed42_config.json"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed42_config_v3.json",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed42_config_v3.json"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed42_fitness_history.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed42_fitness_history.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed42_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed42_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed7_best_weights.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed7_best_weights.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed7_best_weights_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed7_best_weights_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed7_config.json",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed7_config.json"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed7_config_v3.json",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed7_config_v3.json"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed7_fitness_history.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed7_fitness_history.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_seed7_fitness_history_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_seed7_fitness_history_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_selected_final_weights_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_selected_final_weights_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_weight_selection_comparison_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_weight_selection_comparison_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\ga_weight_stability_summary_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\ga_weight_stability_summary_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\phase_c_selected_thresholds_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\phase_c_selected_thresholds_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\phase_c_threshold_tuning_results_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\phase_c_threshold_tuning_results_v3.csv"
+    },
+    {
+      "source": "artifacts\\ga_runs\\selected_threshold_v3.json",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\selected_threshold_v3.json"
+    },
+    {
+      "source": "artifacts\\ga_runs\\threshold_tuning_results_v3.csv",
+      "destination": "artifacts\\ga_runs\\proposed_ga_v3\\threshold_tuning_results_v3.csv"
+    },
+    {
+      "source": "artifacts\\features\\test_adv_10_features_g1_g8.csv",
+      "destination": "artifacts\\features\\_shared_preprocessing\\test_adv_10_features_g1_g8.csv"
+    },
+    {
+      "source": "artifacts\\features\\test_adv_20_features_g1_g8.csv",
+      "destination": "artifacts\\features\\_shared_preprocessing\\test_adv_20_features_g1_g8.csv"
+    },
+    {
+      "source": "artifacts\\features\\test_adv_30_features_g1_g8.csv",
+      "destination": "artifacts\\features\\_shared_preprocessing\\test_adv_30_features_g1_g8.csv"
+    },
+    {
+      "source": "artifacts\\features\\test_clean_features_g1_g8.csv",
+      "destination": "artifacts\\features\\_shared_preprocessing\\test_clean_features_g1_g8.csv"
+    },
+    {
+      "source": "artifacts\\features\\train_clean_features_g1_g8.csv",
+      "destination": "artifacts\\features\\_shared_preprocessing\\train_clean_features_g1_g8.csv"
+    },
+    {
+      "source": "artifacts\\features\\val_adv_10_features_g1_g8.csv",
+      "destination": "artifacts\\features\\_shared_preprocessing\\val_adv_10_features_g1_g8.csv"
+    },
+    {
+      "source": "artifacts\\features\\val_adv_20_features_g1_g8.csv",
+      "destination": "artifacts\\features\\_shared_preprocessing\\val_adv_20_features_g1_g8.csv"
+    },
+    {
+      "source": "artifacts\\features\\val_adv_30_features_g1_g8.csv",
+      "destination": "artifacts\\features\\_shared_preprocessing\\val_adv_30_features_g1_g8.csv"
+    },
+    {
+      "source": "artifacts\\features\\val_clean_features_g1_g8.csv",
+      "destination": "artifacts\\features\\_shared_preprocessing\\val_clean_features_g1_g8.csv"
+    },
+    {
+      "source": "artifacts\\embeddings\\test_adv_10_distilbert_embeddings.npy",
+      "destination": "artifacts\\embeddings\\_shared_preprocessing\\test_adv_10_distilbert_embeddings.npy"
+    },
+    {
+      "source": "artifacts\\embeddings\\test_adv_20_distilbert_embeddings.npy",
+      "destination": "artifacts\\embeddings\\_shared_preprocessing\\test_adv_20_distilbert_embeddings.npy"
+    },
+    {
+      "source": "artifacts\\embeddings\\test_adv_30_distilbert_embeddings.npy",
+      "destination": "artifacts\\embeddings\\_shared_preprocessing\\test_adv_30_distilbert_embeddings.npy"
+    },
+    {
+      "source": "artifacts\\embeddings\\test_clean_distilbert_embeddings.npy",
+      "destination": "artifacts\\embeddings\\_shared_preprocessing\\test_clean_distilbert_embeddings.npy"
+    },
+    {
+      "source": "artifacts\\embeddings\\train_clean_distilbert_embeddings.npy",
+      "destination": "artifacts\\embeddings\\_shared_preprocessing\\train_clean_distilbert_embeddings.npy"
+    },
+    {
+      "source": "artifacts\\embeddings\\val_adv_10_distilbert_embeddings.npy",
+      "destination": "artifacts\\embeddings\\_shared_preprocessing\\val_adv_10_distilbert_embeddings.npy"
+    },
+    {
+      "source": "artifacts\\embeddings\\val_adv_20_distilbert_embeddings.npy",
+      "destination": "artifacts\\embeddings\\_shared_preprocessing\\val_adv_20_distilbert_embeddings.npy"
+    },
+    {
+      "source": "artifacts\\embeddings\\val_adv_30_distilbert_embeddings.npy",
+      "destination": "artifacts\\embeddings\\_shared_preprocessing\\val_adv_30_distilbert_embeddings.npy"
+    },
+    {
+      "source": "artifacts\\embeddings\\val_clean_distilbert_embeddings.npy",
+      "destination": "artifacts\\embeddings\\_shared_preprocessing\\val_clean_distilbert_embeddings.npy"
+    },
+    {
+      "source": "artifacts\\metadata\\embedding_extraction_config.json",
+      "destination": "artifacts\\metadata\\_shared_preprocessing\\embedding_extraction_config.json"
+    },
+    {
+      "source": "artifacts\\metadata\\feature_extraction_config.json",
+      "destination": "artifacts\\metadata\\_shared_preprocessing\\feature_extraction_config.json"
+    },
+    {
+      "source": "artifacts\\metadata\\generated_val_adv_30.csv",
+      "destination": "artifacts\\metadata\\_shared_preprocessing\\generated_val_adv_30.csv"
+    },
+    {
+      "source": "artifacts\\metadata\\val_adv_30_generation_config.json",
+      "destination": "artifacts\\metadata\\_shared_preprocessing\\val_adv_30_generation_config.json"
+    }
+  ],
+  "skipped_existing": [],
+  "unclassified": [],
+  "created_dirs": [
+    "results\\metrics\\ablation_c",
+    "results\\metrics\\ablation_d",
+    "results\\metrics\\_comparison",
+    "results\\metrics\\distilbert_ablation_b",
+    "results\\metrics\\distilbert_baseline2",
+    "results\\metrics\\proposed_ga_v3",
+    "results\\metrics\\tfidf_ablation_a",
+    "results\\metrics\\tfidf_baseline1",
+    "results\\predictions\\ablation_c",
+    "results\\predictions\\ablation_d",
+    "results\\predictions\\distilbert_ablation_b",
+    "results\\predictions\\distilbert_baseline2",
+    "results\\predictions\\proposed_ga_v3",
+    "results\\predictions\\tfidf_ablation_a",
+    "results\\predictions\\tfidf_baseline1",
+    "results\\figures\\ablation_c",
+    "results\\figures\\ablation_d",
+    "results\\figures\\distilbert_ablation_b",
+    "results\\figures\\distilbert_baseline2",
+    "results\\figures\\proposed_ga_v3",
+    "results\\figures\\tfidf_ablation_a",
+    "results\\figures\\tfidf_baseline1",
+    "results\\degradation_tables\\ablation_c",
+    "results\\degradation_tables\\ablation_d",
+    "results\\degradation_tables\\distilbert_ablation_b",
+    "results\\degradation_tables\\distilbert_baseline2",
+    "results\\degradation_tables\\proposed_ga_v3",
+    "results\\degradation_tables\\tfidf_ablation_a",
+    "results\\degradation_tables\\tfidf_baseline1",
+    "reports\\_shared_preprocessing",
+    "reports\\ablation_c",
+    "reports\\ablation_d",
+    "reports\\_comparison",
+    "reports\\distilbert_ablation_b",
+    "reports\\distilbert_baseline2",
+    "reports\\proposed_ga_v3",
+    "reports\\tfidf_ablation_a",
+    "reports\\tfidf_baseline1",
+    "artifacts\\ga_runs\\proposed_ga_v3",
+    "artifacts\\features\\_shared_preprocessing",
+    "artifacts\\embeddings\\_shared_preprocessing",
+    "artifacts\\metadata\\_shared_preprocessing",
+    "results\\metrics\\_shared_preprocessing",
+    "results\\predictions\\_comparison",
+    "results\\predictions\\_shared_preprocessing",
+    "results\\figures\\_comparison",
+    "results\\figures\\_shared_preprocessing",
+    "results\\degradation_tables\\_comparison",
+    "results\\degradation_tables\\_shared_preprocessing"
+  ]
+}

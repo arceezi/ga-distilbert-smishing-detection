@@ -1,0 +1,11 @@
+# Model weights exceed GitHub's 100 MB per-file limit (251 MB each).
+# Regenerate by rerunning the training notebooks; configs and tokenizers are tracked.
+*.safetensors
+
+# Raw run archives, superseded by the extracted results/ and reports/ trees.
+*.zip
+
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

@@ -1,0 +1,10 @@
+# Final Model Comparison All Available v3
+
+Missing or unavailable model files: ['TF-IDF Baseline 1', 'TF-IDF Ablation A', 'DistilBERT Baseline 2', 'Ablation B', 'Proposed GA v2']
+
+```
+         model  test_adv_10_FNR  test_adv_20_FNR  test_adv_30_FNR  test_clean_FNR  test_adv_10_FPR  test_adv_20_FPR  test_adv_30_FPR  test_clean_FPR  test_adv_10_accuracy  test_adv_20_accuracy  test_adv_30_accuracy  test_clean_accuracy  test_adv_10_f1  test_adv_20_f1  test_adv_30_f1  test_clean_f1  test_adv_10_recall  test_adv_20_recall  test_adv_30_recall  test_clean_recall  clean_to_adv30_recall_drop  clean_to_adv30_f1_drop  clean_to_adv30_fnr_increase
+    Ablation C          0.08091         0.093552         0.128951        0.055626         0.058154         0.058154         0.058154        0.058154              0.930468              0.924147              0.906448             0.943110        0.929668        0.922780        0.903014       0.943182             0.91909            0.906448            0.871049           0.944374                    0.073325                0.040167                     0.073325
+    Ablation D          0.07796         0.100295         0.130215        0.063211         0.052676         0.052676         0.052676        0.052676              0.934682              0.923515              0.908555             0.942056        0.933833        0.921644        0.904861       0.941750             0.92204            0.899705            0.869785           0.936789                    0.067004                0.036888                     0.067004
+Proposed GA v3          0.02107         0.048040         0.044248        0.014328         0.128951         0.128951         0.128951        0.128951              0.924989              0.911504              0.913401             0.928361        0.928837        0.914954        0.916929       0.932254             0.97893            0.951960            0.955752           0.985672                    0.029920                0.015325                     0.029920
+```

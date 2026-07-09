@@ -1,0 +1,13 @@
+{
+  "model_name": "distilbert-base-cased",
+  "seed": 7,
+  "best_epoch": 4,
+  "text_col": "model_text",
+  "label_col": "label_id",
+  "class_weights": [
+    1.0,
+    1.0
+  ],
+  "validation_split": "val_clean",
+  "threshold": 0.5
+}

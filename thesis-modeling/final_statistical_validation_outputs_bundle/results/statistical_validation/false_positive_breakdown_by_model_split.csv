@@ -1,0 +1,29 @@
+model_key,display_name,split,false_positive_count
+tfidf_baseline1,"Baseline 1 (TF-IDF, unweighted)",test_clean,11
+tfidf_baseline1,"Baseline 1 (TF-IDF, unweighted)",test_adv_10,11
+tfidf_baseline1,"Baseline 1 (TF-IDF, unweighted)",test_adv_20,11
+tfidf_baseline1,"Baseline 1 (TF-IDF, unweighted)",test_adv_30,11
+tfidf_ablation_a,"Ablation A (TF-IDF, class-weighted)",test_clean,11
+tfidf_ablation_a,"Ablation A (TF-IDF, class-weighted)",test_adv_10,11
+tfidf_ablation_a,"Ablation A (TF-IDF, class-weighted)",test_adv_20,11
+tfidf_ablation_a,"Ablation A (TF-IDF, class-weighted)",test_adv_30,11
+distilbert_baseline2,Baseline 2 (DistilBERT fine-tuned),test_clean,13
+distilbert_baseline2,Baseline 2 (DistilBERT fine-tuned),test_adv_10,13
+distilbert_baseline2,Baseline 2 (DistilBERT fine-tuned),test_adv_20,13
+distilbert_baseline2,Baseline 2 (DistilBERT fine-tuned),test_adv_30,13
+distilbert_ablation_b,Ablation B (DistilBERT + augmentation),test_clean,16
+distilbert_ablation_b,Ablation B (DistilBERT + augmentation),test_adv_10,11
+distilbert_ablation_b,Ablation B (DistilBERT + augmentation),test_adv_20,13
+distilbert_ablation_b,Ablation B (DistilBERT + augmentation),test_adv_30,11
+ablation_c,Ablation C (Frozen DistilBERT + uniform),test_clean,46
+ablation_c,Ablation C (Frozen DistilBERT + uniform),test_adv_10,46
+ablation_c,Ablation C (Frozen DistilBERT + uniform),test_adv_20,46
+ablation_c,Ablation C (Frozen DistilBERT + uniform),test_adv_30,46
+ablation_d,Ablation D (Frozen DistilBERT + random),test_clean,43
+ablation_d,Ablation D (Frozen DistilBERT + random),test_adv_10,41
+ablation_d,Ablation D (Frozen DistilBERT + random),test_adv_20,41
+ablation_d,Ablation D (Frozen DistilBERT + random),test_adv_30,41
+proposed_ga_v3,Proposed Model (GA-optimized fusion),test_clean,99
+proposed_ga_v3,Proposed Model (GA-optimized fusion),test_adv_10,99
+proposed_ga_v3,Proposed Model (GA-optimized fusion),test_adv_20,99
+proposed_ga_v3,Proposed Model (GA-optimized fusion),test_adv_30,99

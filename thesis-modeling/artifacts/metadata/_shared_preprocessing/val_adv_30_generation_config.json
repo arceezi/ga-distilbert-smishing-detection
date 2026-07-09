@@ -1,0 +1,18 @@
+{
+  "split": "val_adv_30",
+  "mode": "generated_from_val_clean_only",
+  "source_split": "val_clean",
+  "test_data_used": false,
+  "ham_rows_unchanged": true,
+  "smishing_rows_perturbed": true,
+  "seed": 3030,
+  "techniques": [
+    "homoglyph substitution",
+    "leetspeak substitution",
+    "token splitting",
+    "case manipulation",
+    "punctuation/spacing noise"
+  ],
+  "output_csv": "/content/06_model_ready/adversarial_validation/val_adv_30.csv",
+  "metadata_copy": "/content/artifacts/metadata/generated_val_adv_30.csv"
+}

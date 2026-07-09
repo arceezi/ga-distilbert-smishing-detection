@@ -1,0 +1,2 @@
+model,split,accuracy,precision_smishing,recall_smishing,f1_smishing,false_negative_rate,false_positive_rate,tp,tn,fp,fn,support_ham,support_smishing,threshold,seed
+proposed_ga_v3_phase_a,val_clean,0.9481668773704172,0.9504447268106735,0.9456384323640961,0.9480354879594424,0.05436156763590392,0.0493046776232617,748,752,39,43,791,791,0.5,42

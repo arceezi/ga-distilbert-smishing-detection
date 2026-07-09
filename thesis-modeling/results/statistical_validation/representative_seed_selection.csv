@@ -1,0 +1,29 @@
+model_key,display_name,split,selected_seed,selection_rule
+tfidf_baseline1,"Baseline 1 (TF-IDF, unweighted)",test_clean,42,"all seeds tied on F1; tie priority 42, then 7, then 123"
+tfidf_baseline1,"Baseline 1 (TF-IDF, unweighted)",test_adv_10,42,"all seeds tied on F1; tie priority 42, then 7, then 123"
+tfidf_baseline1,"Baseline 1 (TF-IDF, unweighted)",test_adv_20,42,"all seeds tied on F1; tie priority 42, then 7, then 123"
+tfidf_baseline1,"Baseline 1 (TF-IDF, unweighted)",test_adv_30,42,"all seeds tied on F1; tie priority 42, then 7, then 123"
+tfidf_ablation_a,"Ablation A (TF-IDF, class-weighted)",test_clean,42,"all seeds tied on F1; tie priority 42, then 7, then 123"
+tfidf_ablation_a,"Ablation A (TF-IDF, class-weighted)",test_adv_10,42,"all seeds tied on F1; tie priority 42, then 7, then 123"
+tfidf_ablation_a,"Ablation A (TF-IDF, class-weighted)",test_adv_20,42,"all seeds tied on F1; tie priority 42, then 7, then 123"
+tfidf_ablation_a,"Ablation A (TF-IDF, class-weighted)",test_adv_30,42,"all seeds tied on F1; tie priority 42, then 7, then 123"
+distilbert_baseline2,Baseline 2 (DistilBERT fine-tuned),test_clean,7,"seed nearest median F1 on same split; tie priority 42, then 7, then 123"
+distilbert_baseline2,Baseline 2 (DistilBERT fine-tuned),test_adv_10,7,"seed nearest median F1 on same split; tie priority 42, then 7, then 123"
+distilbert_baseline2,Baseline 2 (DistilBERT fine-tuned),test_adv_20,7,"seed nearest median F1 on same split; tie priority 42, then 7, then 123"
+distilbert_baseline2,Baseline 2 (DistilBERT fine-tuned),test_adv_30,7,"seed nearest median F1 on same split; tie priority 42, then 7, then 123"
+distilbert_ablation_b,Ablation B (DistilBERT + augmentation),test_clean,123,"seed nearest median F1 on same split; tie priority 42, then 7, then 123"
+distilbert_ablation_b,Ablation B (DistilBERT + augmentation),test_adv_10,7,"seed nearest median F1 on same split; tie priority 42, then 7, then 123"
+distilbert_ablation_b,Ablation B (DistilBERT + augmentation),test_adv_20,42,"seed nearest median F1 on same split; tie priority 42, then 7, then 123"
+distilbert_ablation_b,Ablation B (DistilBERT + augmentation),test_adv_30,7,"seed nearest median F1 on same split; tie priority 42, then 7, then 123"
+ablation_c,Ablation C (Frozen DistilBERT + uniform),test_clean,42,single available seed
+ablation_c,Ablation C (Frozen DistilBERT + uniform),test_adv_10,42,single available seed
+ablation_c,Ablation C (Frozen DistilBERT + uniform),test_adv_20,42,single available seed
+ablation_c,Ablation C (Frozen DistilBERT + uniform),test_adv_30,42,single available seed
+ablation_d,Ablation D (Frozen DistilBERT + random),test_clean,42,"seed nearest median F1 on same split; tie priority 42, then 7, then 123"
+ablation_d,Ablation D (Frozen DistilBERT + random),test_adv_10,7,"seed nearest median F1 on same split; tie priority 42, then 7, then 123"
+ablation_d,Ablation D (Frozen DistilBERT + random),test_adv_20,7,"seed nearest median F1 on same split; tie priority 42, then 7, then 123"
+ablation_d,Ablation D (Frozen DistilBERT + random),test_adv_30,7,"seed nearest median F1 on same split; tie priority 42, then 7, then 123"
+proposed_ga_v3,Proposed Model (GA-optimized fusion),test_clean,123,"seed nearest median F1 on same split; tie priority 42, then 7, then 123"
+proposed_ga_v3,Proposed Model (GA-optimized fusion),test_adv_10,123,"seed nearest median F1 on same split; tie priority 42, then 7, then 123"
+proposed_ga_v3,Proposed Model (GA-optimized fusion),test_adv_20,123,"seed nearest median F1 on same split; tie priority 42, then 7, then 123"
+proposed_ga_v3,Proposed Model (GA-optimized fusion),test_adv_30,123,"seed nearest median F1 on same split; tie priority 42, then 7, then 123"

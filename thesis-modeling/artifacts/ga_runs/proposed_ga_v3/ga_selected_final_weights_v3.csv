@@ -1,0 +1,9 @@
+feature,weight,selected_weight_source
+G1_URL_Signals,0.80410063,best_seed_weights
+G2_OTP_Numeric_Density,0.60076654,best_seed_weights
+G3_Obfuscation,1.1424984,best_seed_weights
+G4_Urgency_Threat_Cues,0.818592,best_seed_weights
+G5_Action_Directives,0.6281073,best_seed_weights
+G6_Financial_Terms,1.0817323,best_seed_weights
+G7_Auth_Secrets_Request,0.9875737,best_seed_weights
+G8_Brand_Impersonation,1.2955943,best_seed_weights

@@ -1,0 +1,20 @@
+{
+  "model_name": "distilbert-base-cased",
+  "feature_text_col": "message_raw",
+  "embedding_text_col": "model_text",
+  "embedding": "Frozen DistilBERT CLS-position representation: last_hidden_state[:, 0, :]",
+  "max_length": 128,
+  "device": "cuda",
+  "expected_embedding_dim": 768,
+  "selected_embedding_text_columns": {
+    "train_clean": "model_text",
+    "val_clean": "model_text",
+    "test_clean": "model_text",
+    "val_adv_10": "model_text",
+    "val_adv_20": "model_text",
+    "val_adv_30": "model_text",
+    "test_adv_10": "model_text",
+    "test_adv_20": "model_text",
+    "test_adv_30": "model_text"
+  }
+}
